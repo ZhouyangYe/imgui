@@ -4,6 +4,9 @@ project(imgui)
 add_library(${PROJECT_NAME}
   imgui.h
   imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
   backends/imgui_impl_opengl3.h
   backends/imgui_impl_opengl3.cpp
   backends/imgui_impl_glfw.h
